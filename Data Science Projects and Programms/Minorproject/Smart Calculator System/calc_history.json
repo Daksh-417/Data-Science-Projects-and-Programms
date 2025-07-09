@@ -1,0 +1,12 @@
+[
+  {
+    "Operation": "12.0 + 8.0",
+    "Result": 20.0,
+    "Timestamp": "2025-07-03 18:20:47"
+  },
+  {
+    "Operation": "15.0 / 0.0",
+    "Result": "Error: Division by zero",
+    "Timestamp": "2025-07-03 18:21:10"
+  }
+]
