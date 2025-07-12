@@ -1,0 +1,16 @@
+{
+  "pin": "1234",
+  "balance": 8500,
+  "history": [
+    {
+      "type": "Deposit",
+      "amount": 10000,
+      "time": "2025-07-03 16:57:32"
+    },
+    {
+      "type": "Withdraw",
+      "amount": 1500,
+      "time": "2025-07-03 17:05:10"
+    }
+  ]
+}

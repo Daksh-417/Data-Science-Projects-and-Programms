@@ -1,0 +1,21 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv('marks.csv')
+mean = df['Marks'].mean()
+median = df['Marks'].median()
+mode = df['Marks'].mode()[0]
+variance = df['Marks'].var()
+std_dev = df['Marks'].std()
+print("Student Marks Analysis")
+print(f"Mean: {mean:.2f}")
+print(f"Median: {median}")
+print(f"Mode: {mode}")
+print(f"Variance: {variance:.2f}")
+print(f"Standard Deviation: {std_dev:.2f}")
+plt.figure(figsize=(8,5))
+plt.hist(df['Marks'], bins=range(40, 101, 10), color='teal', edgecolor='black')
+plt.title('Student Marks Distribution')
+plt.xlabel('Marks')
+plt.ylabel('Frequency')
+plt.grid(True)
+plt.show()
